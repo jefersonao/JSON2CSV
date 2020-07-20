@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON2CSV", "JSON2CSV\JSON2CSV.csproj", "{07414985-C486-4A52-84E5-25CC17E8B89A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON2CSV", "JSON2CSV\JSON2CSV.csproj", "{07414985-C486-4A52-84E5-25CC17E8B89A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonExamples", "JsonExamples", "{5FD3C72C-2E81-48A1-9015-86866658B9B4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\FilesJson\Input\image.json = ..\..\..\FilesJson\Input\image.json
+		..\..\..\FilesJson\Input\t.json = ..\..\..\FilesJson\Input\t.json
+		..\..\..\FilesJson\Input\text.json = ..\..\..\FilesJson\Input\text.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
